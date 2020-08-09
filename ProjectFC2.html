@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div>
+            <h1 class="title">Survey Form</h1>
+        </div>
+
+        <div>
+            <p class="description"> <em> Please go through this little survey so that we can anylise your answers which would help us to upgrade our Company :)
+                </em></p>
+        </div>
+
+        <div class="container">
+            <form id="survey-form">
+                <div id="name-div" class="label">
+                    <label id="name-label" for="name">Name</label>
+                </div>
+
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+
+                <div class="label">
+                    <label id="email-label" for="email">E-mail</label>
+                </div>
+
+                <input type="email" name="email" id="email" placeholder="Enter your e-mail id" required>
+
+                <div class="label">
+                    <label id="number-label" for="number">Age</label>
+                </div>
+
+                <input type="number" name="number" id="number" min="18" max="69" placeholder="Enter Your Age" required>
+
+                <div class="label">
+                    <label for="dropdown">What are you doing now ?</label>
+                </div>
+                    
+                    <select class="input" name="dropdown" id="dropdown">
+                        <option value="student">Select Your Role</option>
+                        <option value="part - time job">Part - time Job</option>
+                        <option value="Full - time Job">Full - time Job</option>
+                    </select>
+
+                    <div class="radios">
+
+                        <div class="label">
+                            Select Your Gender
+                        </div>
+                        
+                        <input type="radio" name="gender" id="female"> <label for="female">Female</label> 
+
+                        <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+                        
+                    </div>
+
+                    <div class="label">
+                        Select which facility should be upgraded?
+                    </div>
+
+                    <input type="checkbox" name="facility" id="Internet"> <label for="Internet">Internet</label>
+                    <br>
+                    <input type="checkbox" name="facility" id="Water"> <label for="Water">Water</label>
+                    <br>
+                    <input type="checkbox" name="facility" id="Cleanliness"> <label for="Cleanliness">Cleanliness</label>
+                    <br>
+
+                    <div class="label">
+                        Feedback
+                    </div>
+
+                    <textarea class="label" name="additional comments" id="additional comments" cols="38" rows="5" placeholder="Additional Comments"></textarea>
+
+                    <input id="submit" type="submit" value="Submit Now">
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
