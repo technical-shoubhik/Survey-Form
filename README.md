@@ -9,6 +9,6 @@ You can check out CodePen here >>> https://codepen.io/technical_shoubhik/pen/xxZ
 
 You can check out my FreeCodeCamp Profile Here >>> https://www.freecodecamp.org/technical-shoubhik
 
-You can check out my Instagram Account here >>> https://www.instagram.com/technical_shoubhik/ Feel free to ask any help :)
+You can check out my Instagram Account here >>> https://www.instagram.com/technical_shoubhik/ Feel free to ask any question :)
 
 
